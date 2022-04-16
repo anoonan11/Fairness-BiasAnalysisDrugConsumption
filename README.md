@@ -8,7 +8,7 @@ Personally, I believe that using data for this purpose is problematic in many wa
 
 ## Dataset Selected
 
-The dataset selected for this project is the Drug consumption (quantified) dataset from University of California Irvine's archives. This dataset of nearly 2,000 respondents characterizes their personal drug use. In my analysis, responses associated with cannabis and heroin were selected as dependent variables.
+The dataset selected for this project is the [Drug consumption (quantified) dataset from University of California Irvine's archives](https://archive.ics.uci.edu/ml/datasets/Drug+consumption+%28quantified%29#). This dataset of nearly 2,000 respondents characterizes their personal drug use. In my analysis, responses associated with cannabis and heroin were selected as dependent variables.
 
 ### Attributes Associated with Protected Classes
 
