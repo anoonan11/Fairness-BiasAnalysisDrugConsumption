@@ -1,6 +1,10 @@
 # Fairness and Bias Analysis in Drug Consumption Dataset
 
-This analysis was conducted as a final project for Georgia Tech's AI, Ethics, & Society course (CS6603). The scope of this project was to select a dataset to create a machine learning classification algorithm and analyze both the dataset and algorithm for bias, compute metrics of fairness, and mitigate the biases found. The focus of this project was to identify attributes, outcomes, and biases associated with protected classes.
+In Spring 2022, I took CS6603 at Georgia Tech, which is AI, Ethics, & Society. In this class, we spent the semester examining various AI/ML techniques that can be used to counterbalance the potential abuse and misuse of learning from big data with a focus on the effects of these technologies on individuals, organizations, and society, as is our duty as responsible computing professionals. The scope of this project was to select a dataset to create a machine learning classification algorithm and analyze both the dataset and algorithm for bias, compute metrics of fairness, and mitigate the biases found. The focus of this project was to identify attributes, outcomes, and biases associated with protected classes.
+
+For my final project, I wanted to select a dataset that focused on a taboo topic: drug use. With the overwhelming normalization of cannabis and psychadelic use in our society coupled with the continued stigma of using "harder" drugs such as meth and heroin, systemic societial and economic barriers to receiving treatment for addiction, and the historic imprisonment and stigma of use associated with several minority groups, I was interested in how one could leverage big data and create a machine learning binary classifier to predict if someone might be a drug user.
+
+Personally, I believe that using data for this purpose is problematic in many ways and should not be conducted or used outside of a purely academic setting to analyze bias. Making decisions based on this type of classifier is harmful to many marginalized groups and like with any AI/ML study, prone to bias in many different ways. Even when applying bias mitigation techniques (most successfully was "reweighing"), the dataset used contains significantly biased data due to the lack of diverse representation in the dataset.
 
 ## Dataset Selected
 
