@@ -1,3 +1,28 @@
+# Table of Contents
+
+- [Fairness and Bias Analysis in Drug Consumption Dataset](#fairness-and-bias-analysis-in-drug-consumption-dataset)
+  * [Dataset Selected](#dataset-selected)
+    + [Attributes Associated with Protected Classes](#attributes-associated-with-protected-classes)
+    + [Dataset Bias Associated with Protected Class Attributes](#dataset-bias-associated-with-protected-class-attributes)
+      - [Age](#age)
+      - [Gender](#gender)
+      - [Country](#country)
+      - [Ethnicity](#ethnicity)
+  * [Classification Model](#classification-model)
+  * [Outcomes](#outcomes)
+    + [Heroin Use](#heroin-use)
+      - [Age](#age-1)
+      - [Gender](#gender-1)
+      - [Country](#country-1)
+      - [Ethnicity](#ethnicity-1)
+    + [Cannabis Use](#cannabis-use)
+      - [Age](#age-2)
+      - [Gender](#gender-2)
+      - [Country](#country-2)
+      - [Ethnicity](#ethnicity-2)
+  * [Attempt to Debias for Gender and Heroin Outcome](#attempt-to-debias-for-gender-and-heroin-outcome)
+    + [Summary](#summary)
+
 # Fairness and Bias Analysis in Drug Consumption Dataset
 
 In Spring 2022, I took CS6603 at Georgia Tech, which is AI, Ethics, & Society. In this class, we spent the semester examining various AI/ML techniques that can be used to counterbalance the potential abuse and misuse of learning from big data with a focus on the effects of these technologies on individuals, organizations, and society, as is our duty as responsible computing professionals. The scope of this project was to select a dataset to create a machine learning classification algorithm and analyze both the dataset and algorithm for bias, compute metrics of fairness, and mitigate the biases found. The focus of this project was to identify attributes, outcomes, and biases associated with protected classes.
